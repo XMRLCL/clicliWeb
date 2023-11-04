@@ -82,6 +82,7 @@ export default {
         publishVideo: "動画を投稿する",
         manuscriptManagement: "原稿管理",
         commentManagement: "コメント管理",
+        ArticleManage: "記事の管理",
         uploadVideoInfo: "ビデオ情報",
         uploadVideoFile: "動画をアップロードする",
         VideoReview: "レビュー",

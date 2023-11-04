@@ -17,7 +17,7 @@ import { NMenu } from "naive-ui";
 import { RouterLink, useRoute } from 'vue-router';
 import HeaderBar from '@/components/header-bar/Index.vue';
 import useRenderIcon from "@/hooks/render-icon-hooks";
-import { Upload, Video, Comment } from "@leaf/icons";
+import { Upload, Video, Comment, Book } from "@leaf/icons";
 
 // i18n
 const { t } = useI18n();
@@ -83,6 +83,20 @@ const menuOptions = [
         key: "comment",
         icon: renderIcon(Comment),
     },
+    {
+        label: () =>
+            h(
+                RouterLink,
+                {
+                    to: {
+                        name: "ArticleManage",
+                    }
+                },
+                { default: () => t("upload.ArticleManage") }
+            ),
+        key: "article",
+        icon: renderIcon(Book),
+    },
 ];
 
 onBeforeMount(() => {
@@ -95,6 +109,9 @@ onBeforeMount(() => {
             break;
         case 'CommentManage':
             defaultOption.value = 'comment';
+            break;
+        case 'ArticleManage':
+            defaultOption.value = 'article';
             break;
         default:
             defaultOption.value = 'upload';

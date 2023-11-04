@@ -82,6 +82,8 @@ export default {
         publishVideo: "publish video",
         manuscriptManagement: "manage manuscript",
         commentManagement: "manage comments",
+        ArticleManage: "manage articles",
+        uploadVideo: "upload video",
         uploadVideoInfo: "video information",
         uploadVideoFile: "video file",
         videoReview: "review",

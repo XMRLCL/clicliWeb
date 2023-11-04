@@ -9,6 +9,7 @@ import Close from "./src/Close.vue";
 import Collect from "./src/Collect.vue";
 import Collection from "./src/Collection.vue";
 import Comment from "./src/Comment.vue";
+import Book from "./src/Book.vue";
 
 import Delete from "./src/Delete.vue";
 
@@ -50,6 +51,7 @@ export {
     Collect,
     Collection,
     Comment,
+    Book,
 
     Delete,
 

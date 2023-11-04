@@ -87,6 +87,7 @@ export default {
         contribute: "上传投稿",
         manuscriptManagement: "稿件管理",
         commentManagement: "评论管理",
+        ArticleManage: "文章管理",
         videoInfo: "视频信息",
         videoFile: "视频文件",
         uploadVideoInfo: "开播信息",

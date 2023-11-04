@@ -30,6 +30,12 @@ export const uploadRoutes: RouteRecordRaw = {
             meta: { auth: true },
             component: () => import("../views/upload/comment-manage/Index.vue"),
         },
+        {
+            path: '/upload/comment/article',
+            name: 'ArticleManage',
+            meta: { auth: true },
+            component: () => import("../views/upload/article-manage/Index.vue"),
+        },
 
     ]
 }
